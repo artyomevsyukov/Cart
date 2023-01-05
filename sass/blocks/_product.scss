@@ -1,0 +1,25 @@
+.product {
+  display: grid;
+  grid-template-columns: 2fr 3fr 3fr 3fr 1fr;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+// обращение к любому эдементу вложенности на первом уровне внутри product
+.product > * {
+  align-self: center;
+}
+
+.product__img {
+  justify-self: center;
+}
+.producr__title {
+}
+.producr__count {
+}
+.producr__price {
+}
+.producr__controls {
+}
